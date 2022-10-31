@@ -48,6 +48,20 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    width: 99vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid var(--border-white);
+
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 nav {
@@ -65,7 +79,7 @@ main {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding-top: 94px;
+    padding-top: 174px;
     padding-bottom: 50px;
 }
 .list-filtrs>li {
@@ -292,6 +306,7 @@ margin-top: 20px;
     align-items: center;
     text-align: center;
     width: 99vw;
+    margin-top: 80px;
     
     
     
