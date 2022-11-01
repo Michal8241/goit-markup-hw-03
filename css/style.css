@@ -6,7 +6,8 @@
     --main-white: #FFFFFF;
     --second-white: #f5f4fa;
     --main-silver: #757575;
-}
+    --border-white: #ECECEC;
+    }
 
 body {
     margin: 0;
@@ -52,7 +53,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    border-bottom: 1px solid var(--border-white);
+    border-bottom: solid 1px var(--border-white);
 
 }
 
@@ -88,7 +89,7 @@ main {
 
 .list-filtrs>li>button {
     background-color: var(--second-white);
-    padding: 12px 44px; 
+    padding: 12px 22px; 
 }
 
 .list-filtrs>li>button:hover,
@@ -412,4 +413,8 @@ margin-top: 20px;
 }
 .contact-links-footer>li>a {
     line-height: 30px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
