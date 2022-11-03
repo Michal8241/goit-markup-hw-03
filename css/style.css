@@ -1,4 +1,4 @@
-:root {
+root {
     --black-main: #212121;
     --second-black: #000000;
     --main-blue: #2196f3;
@@ -7,6 +7,7 @@
     --second-white: #f5f4fa;
     --main-silver: #757575;
     --border-white: #ECECEC;
+    --border-white-figure: #EEEEEE;
     }
 
 body {
@@ -137,16 +138,22 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 94px;
+    row-gap: 30px;
 }
 .projects-list>li>figure {
+    display: flex;
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid var(--border-white-figure);
+    
 }
 figure {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
+
+
 .project-title {
     font-size: 18px;
     font-weight: 700;
